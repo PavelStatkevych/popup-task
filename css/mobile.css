@@ -1,0 +1,29 @@
+@media screen and (max-width: 868px) {
+  .popup__main_buttons-section {
+  	float: none;
+  	max-width: 420px;
+	margin:0 auto;
+  }
+  .popup__main_form-section{
+  	float: none;
+  	width: 300px;
+  	padding: 0;
+	margin:24px auto 0 auto;
+	border-left: none;
+	border-bottom: 1px solid #D5D5D5;
+  }
+}
+@media screen and (max-width: 440px) {
+  body {
+	min-width: 319px;
+  }
+  .popup__header_head {
+  	font-size: 26px;
+  }
+  .popup__main_buttons-section {
+  	padding: 24px 0 0 0;
+  	float: none;
+  	max-width: 300px;
+	margin:0 auto;
+  }
+}
